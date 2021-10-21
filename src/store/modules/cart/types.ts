@@ -1,14 +1,14 @@
-export interface IProduct{
+export interface IProduct {
   id: number;
   title: string;
   price: number;
 }
 
-export interface ICartItem{
+export interface ICartItem {
   product: IProduct;
   quantity: number;
 }
 
-export interface ICartState{
+export interface ICartState {
   items: ICartItem[]
 }
